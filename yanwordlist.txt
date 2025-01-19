@@ -1,4 +1,0 @@
-robots.txt
-vina.txt
-iyan.txt
-password.txt
