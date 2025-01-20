@@ -1,6 +1,5 @@
 index.html
 profile.php
-privasi
-flag.txt
-users.txt
+private/flag.txt
+private/users.txt
 robots.txt
