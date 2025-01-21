@@ -1,5 +1,0 @@
-index.html
-profile.php
-private/flag.txt
-private/users.txt
-robots.txt
