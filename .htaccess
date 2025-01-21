@@ -1,0 +1,13 @@
+# Redirect semua ke HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# URL rewriting
+RewriteRule ^about$ about.php [L]
+
+# Melindungi direktori dengan password
+AuthType Basic
+AuthName "Protected Area"
+AuthUserFile /path/to/.htpasswd
+Require valid-user
